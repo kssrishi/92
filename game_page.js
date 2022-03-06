@@ -37,8 +37,8 @@ function send() {
   document.getElementById("output").innerHTML = row;
   document.getElementById("word").value = "";
 }
-answer_turn = ""
-question_turn = "";
+answer_turn = "player2"
+question_turn = "player1";
 function check() {
   get_answer = document.getElementById("input_check_box").value;
   answer = get_answer.toLowerCase();
